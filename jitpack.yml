@@ -2,7 +2,7 @@ jdk:
   - openjdk11
 
 install:
-- FILE="remote-debugger-1.2.2"
-- mvn install:install-file -Dfile="$FILE.aar" -DgroupId=com.bca.rnd.lib -DartifactId=remote-debugger -Dversion=1.2.2 -Dpackaging=aar -DpomFile="pom.xml"
+- FILE="remote-debugger-1.2.3"
+- mvn install:install-file -Dfile="$FILE.aar" -DgroupId=com.bca.rnd.lib -DartifactId=remote-debugger -Dversion=1.2.3 -Dpackaging=aar -DpomFile="pom.xml"
 
 
